@@ -3,7 +3,7 @@
         <!-- logo -->
         <img  src="assets/img/logo.png" style="max-width: 280px;">
     </div>
-    <form class="form-signin" novalidate>
+    <form class="form-signin" #heroForm="ngForm">
         <label for="inputUsername" class="sr-only">Username</label>
         <input type="text" id="inputUsername" class="form-control" placeholder="Username" name="username" [(ngModel)]="username" required >
         <label for="inputPassword" class="sr-only">Password</label>

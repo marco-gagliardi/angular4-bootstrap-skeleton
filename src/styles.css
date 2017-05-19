@@ -101,7 +101,7 @@ body {
 }
 
 /* FORM VALIDATION OVERRIDE: INVALID INPUT */
-.ng-submitted input.ng-invalid, .ng-submitted textarea.ng-invalid, .ng-submitted select.ng-invalid{
+input.ng-invalid,  textarea.ng-invalid, select.ng-invalid{
     border: 1px solid #c10000;
     box-shadow: 0px 0px 2px 1px #ED2042 inset, 0px 0px 3px #ED2042;
     outline: 0 none;
